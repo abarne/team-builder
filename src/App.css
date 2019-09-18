@@ -1,0 +1,36 @@
+.App {
+	text-align: center;
+	background: blue;
+	color: white;
+	min-height: 100vh;
+}
+.member-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.member {
+	background: #06003f;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12), 0 5px 2px rgba(0, 0, 0, 0.24);
+	width: 100%;
+	max-width: 250px;
+	padding: 10px;
+	margin: 16px auto;
+	margin-top: 50px;
+	text-align: left;
+	color: white;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	align-self: center;
+	margin: 0 auto;
+	color: white;
+}
+button {
+	margin-top: 20px;
+}
+textarea {
+	height: 100px;
+}
